@@ -1,0 +1,12 @@
+{
+  "short_name": "Bajabéla TV",
+  "name": "Bajabéla TV",
+  "icons": [{
+    "src": "img/icon/icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
