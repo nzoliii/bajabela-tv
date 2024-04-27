@@ -29,3 +29,42 @@
 .navbar-toggler {
     color: black;
 }
+
+.navpos {
+    position:relative; top:15px;
+}
+
+.whitebg {
+    background-color: white;
+}
+
+.creditsdiv {
+    position: relative;
+    text-align: center
+}
+
+.creditsp {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    color:white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color:black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
