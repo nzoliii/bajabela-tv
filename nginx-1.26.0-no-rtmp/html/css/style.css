@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/background/bela.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.navbar-brand {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.nav-item {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler {
+    color: black;
+}
